@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    padding: 10px 0px 10px 0px;
+    color: #335340;
+    text-shadow: 3px 3px black;
+    letter-spacing: 4px;
+    font-size: 32px;
+}
+
+body {
+    background-color: #e7e9aa;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #335340;
+    font-family: 'Rowdies', cursive;
+    letter-spacing: 1px;
+    transition: all .2s ease-in-out; 
+    font-weight: bold;
+    font-size: 21px;  
+}
+
+a:hover {
+    transform: scale(1.5);
+    color: #e7e9aa;
+    background-color: #335340;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    display: flex;
+    height: 220px;
+    width: 220px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #436b53;
+    box-shadow: 8px 8px black;
+    transition: all .2s ease-in-out; 
+
+  }
+
+  h3 {
+    font-family: 'Rowdies', cursive; ;
+    font-size: 34px;
+    font-weight: bold;
+    -webkit-text-stroke:  1px #335340;
+    color: rgba(199, 199, 28, 0.753);
+  }
+
+.info {
+    display: flex;
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    background-color: #ecece1;
+    box-shadow: 6px 6px black;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 4px;
+    transition: all .2s ease-in-out; 
+
+}
+
+
+.card:hover {
+    transform: scale(1.5);
+}
+
+
+
